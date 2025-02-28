@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Comment déclarer une variable qui ne peut pas être modifiée ?",
+        "answers": ["const", "let", "var"],
+        "correct": "const"
+    },
+    {
+        "question": "Quelle méthode transforme une chaîne de caractères en nombre entier ?",
+        "answers": ["parseInt", "parseFloat", "toString"],
+        "correct": "parseInt"
+    },
+    {
+        "question": "Quel est le résultat de \"2\" + 2 en JavaScript ?",
+        "answers": ["4", "22", "Erreur"],
+        "correct": "22"
+    },
+    {
+        "question": "Comment appelle-t-on une fonction qui s'appelle elle-même ?",
+        "answers": ["Fonction circulaire", "Fonction récursive", "Fonction miroir"],
+        "correct": "Fonction récursive"
+    },
+    {
+        "question": "Quelle fonction permet de créer un délai en JavaScript ?",
+        "answers": ["delay()", "setTimeout()", "wait()"],
+        "correct": "setTimeout()"
+    },
+    {
+        "question": "Quel est le nom de la fonction qui permet de répéter une action à intervalles réguliers ?",
+        "answers": ["setInterval()", "repeat()", "loop()"],
+        "correct": "setInterval()"
+    },
+    {
+        "question": "Quelle méthode permet de retirer le dernier élément d'un tableau ?",
+        "answers": ["shift()", "pop()", "splice()"],
+        "correct": "pop()"
+    },
+    {
+        "question": "Comment vérifier si une variable est un tableau en JavaScript ?",
+        "answers": ["isType()", "typeof", "Array.isArray()"],
+        "correct": "Array.isArray()"
+    },
+    {
+        "question": "Quelle est la valeur de \"null\" lorsqu'elle est convertie en nombre ?",
+        "answers": ["0", "1", "undefined", "null"],
+        "correct": "0"
+    },
+    {
+        "question": "Comment accéder au premier élément d'un tableau appelé \"myArray\" ?",
+        "answers": ["myArray[1]", "myArray[0]", "myArray.first()", "myArray.one"],
+        "correct": "myArray[0]"
+    },
+    {
+        "question": "Quelle méthode ajoute un élément à la fin d'un tableau ?",
+        "answers": ["push()", "unshift()", "concat()", "append()"],
+        "correct": "push()"
+    },
+    {
+        "question": "Comment fusionner deux tableaux en JavaScript ?",
+        "answers": ["merge()", "concat()", "combine()", "append()"],
+        "correct": "concat()"
+    },
+    {
+        "question": "Quelle boucle est utilisée pour parcourir les propriétés d'un objet ?",
+        "answers": ["for", "forEach", "for...in", "for...of"],
+        "correct": "for...in"
+    },
+    {
+        "question": "Quelle méthode JSON permet de convertir un objet en chaîne de caractères ?",
+        "answers": ["JSON.stringify()", "JSON.parse()", "toJSON()", "objectToString()"],
+        "correct": "JSON.stringify()"
+    },
+    {
+        "question": "Comment empêcher la propagation d'un événement en JavaScript ?",
+        "answers": ["event.stop()", "event.preventDefault()", "event.stopPropagation()", "event.cancel()"],
+        "correct": "event.stopPropagation()"
+    },
+    {
+        "question": "Quelle méthode permet d'attendre une promesse en JavaScript ?",
+        "answers": ["then()", "wait()", "await", "resolve()"],
+        "correct": "await"
+    },
+    {
+        "question": "Quelle méthode retourne l'index d'un élément dans un tableau ?",
+        "answers": ["find()", "indexOf()", "search()", "filter()"],
+        "correct": "indexOf()"
+    },
+    {
+        "question": "Comment supprimer une propriété d'un objet en JavaScript ?",
+        "answers": ["delete", "remove", "pop", "unset"],
+        "correct": "delete"
+    },
+    {
+        "question": "Quelle méthode permet d'ajouter un élément au début d'un tableau ?",
+        "answers": ["push()", "unshift()", "prepend()", "shift()"],
+        "correct": "unshift()"
+    },
+    {
+        "question": "Comment sélectionner un élément HTML avec JavaScript ?",
+        "answers": ["getElementByTag()", "querySelector()", "findElement()", "selectElement()"],
+        "correct": "querySelector()"
+    }
+]
