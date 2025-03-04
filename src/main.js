@@ -97,7 +97,8 @@ fetch(url)
                             note += 1;
                             truResponse.style.display = "block"
                             truResponse.innerHTML = "Bravo ! Tu as eu la bonne réponse";
-                        }else{
+                        }
+                        else if(res.innerText !== data[count].correct){
                             falseResponse.style.display = "block"
                             document.querySelector('.false-response span').innerHTML = `${data[count].correct}`
                         }
