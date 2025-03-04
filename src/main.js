@@ -85,6 +85,7 @@ fetch(url)
             let myDivRadio = document.querySelectorAll(".my-div-radio")
             let myRadio = document.querySelectorAll(".my-radio")
             let i = 0;
+            let myRes = document.querySelector(".my-response");
                 
             myDivRadio.forEach((res , index) => {
                 res.addEventListener('click', ()=>{
@@ -100,7 +101,7 @@ fetch(url)
                         }
                         else if(res.innerText !== data[count].correct){
                             falseResponse.style.display = "block"
-                            document.querySelector('.false-response span').innerHTML = `${data[count].correct}`
+                            myRes.innerHTML = `${data[count].correct}`
                         }
                         btn.disabled = false
                     }
