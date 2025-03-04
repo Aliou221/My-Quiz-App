@@ -87,19 +87,19 @@ fetch(url)
             let i = 0;
             let myRes = document.querySelector(".my-response");
                 
-            myDivRadio.forEach((res , index) => {
+             myDivRadio.forEach((res , index) => {
                 res.addEventListener('click', ()=>{
                     if(i < 1){
                         i++;
                         myRadio[index].style.opacity = '1';
                         myRadio[index].style.visibility = 'visible'
 
-                        if(res.innerText === data[count].correct){
+                        if(res.innerText.trim() === data[count].correct.trim()){
                             note += 1;
                             truResponse.style.display = "block"
                             truResponse.innerHTML = "Bravo ! Tu as eu la bonne réponse";
                         }
-                        else if(res.innerText !== data[count].correct){
+                        else{
                             falseResponse.style.display = "block"
                             myRes.innerHTML = `${data[count].correct}`
                         }
